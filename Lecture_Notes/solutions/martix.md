@@ -226,7 +226,7 @@ $$
 \end{pmatrix}
 \quad \text{and} \quad
 \mathbf{D} = 
-\begin{pmatrix}-1 & 2 & 3 \\
+\begin{pmatrix}-1 & 2 & 3\\
 4 & 0 & 6
 \end{pmatrix}
 $$
@@ -248,7 +248,7 @@ $$
 #### 4. D*E
 $$
 \mathbf{D} = 
-\begin{pmatrix}-1 & 2 & 3 \\
+\begin{pmatrix}-1 & 2 & 3\\
 4 & 0 & 6
 \end{pmatrix}
 \quad \text{and} \quad
@@ -261,6 +261,7 @@ $$
 $$
 
 $$
+\mathbf{D} \cdot \mathbf
 {E} = 
 \begin{pmatrix}
 (-1 \cdot 1 + 2 \cdot 4 + 3 \cdot 7) & (-1 \cdot 2 + 2 \cdot 5 + 3 \cdot 8) \\
