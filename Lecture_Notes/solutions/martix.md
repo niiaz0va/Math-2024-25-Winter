@@ -16,14 +16,12 @@ $$
 \end{pmatrix}
 \quad
 \mathbf{C}=
-\begin{pmatrix}
--1 & 2 \\
+\begin{pmatrix}-1 & 2 \\
 3 & 0
 \end{pmatrix}
 \qquad
 \mathbf{D}=
-\begin{pmatrix}
--1 & 2 & 3 \\
+\begin{pmatrix}-1 & 2 & 3 \\
 4 & 0 & 6 
 \end{pmatrix}
 \qquad
@@ -91,8 +89,7 @@ $$
 \end{pmatrix}
 \quad + \quad
 \mathbf{C} = 
-\begin{pmatrix}
--1 & 2 \\
+\begin{pmatrix}-1 & 2 \\
 3 & 0
 \end{pmatrix}
 \quad =
@@ -138,26 +135,22 @@ $$
 
 $$
 \mathbf{C} = 
-\begin{pmatrix}
--1 & 2 \\
+\begin{pmatrix}-1 & 2 \\
 3 & 0
 \end{pmatrix}
 \quad \times \quad -3 = 
 \begin{pmatrix}
-3 & -6 \\
--9 & 0
+3 & -6 \\-9 & 0
 \end{pmatrix}
 $$
 #### 4. 4*D
 $$
 \mathbf{D} = 
-\begin{pmatrix}
--1 & 2 & 3 \\
+\begin{pmatrix}-1 & 2 & 3 \\
 4 & 0 & 6
 \end{pmatrix}
 \quad \times \quad 4 = 
-\begin{pmatrix}
--4 & 8 & 12 \\
+\begin{pmatrix}-4 & 8 & 12 \\
 16 & 0 & 24
 \end{pmatrix}
 $$
@@ -184,8 +177,7 @@ $$
 \begin{pmatrix}
 (1 \cdot 5 + 2 \cdot 7) & (1 \cdot 6 + 2 \cdot 8) \\
 (3 \cdot 5 + 4 \cdot 7) & (3 \cdot 6 + 4 \cdot 8)
-\end{pmatrix}
-=
+\end{pmatrix}=
 \begin{pmatrix}
 19 & 22 \\
 43 & 50
@@ -215,8 +207,7 @@ $$
 \begin{pmatrix}
 (5 \cdot 1 + 6 \cdot 3) & (5 \cdot 2 + 6 \cdot 4) \\
 (7 \cdot 1 + 8 \cdot 3) & (7 \cdot 2 + 8 \cdot 4)
-\end{pmatrix}
-=
+\end{pmatrix}=
 \begin{pmatrix}
 23 & 34 \\
 31 & 46
@@ -235,8 +226,7 @@ $$
 \end{pmatrix}
 \quad \text{and} \quad
 \mathbf{D} = 
-\begin{pmatrix}
--1 & 2 & 3 \\
+\begin{pmatrix}-1 & 2 & 3 \\
 4 & 0 & 6
 \end{pmatrix}
 $$
@@ -246,8 +236,7 @@ $$
 \begin{pmatrix}
 (1 \cdot -1 + 2 \cdot 4) & (1 \cdot 2 + 2 \cdot 0) & (1 \cdot 3 + 2 \cdot 6) \\
 (3 \cdot -1 + 4 \cdot 4) & (3 \cdot 2 + 4 \cdot 0) & (3 \cdot 3 + 4 \cdot 6)
-\end{pmatrix}
-=
+\end{pmatrix}=
 \begin{pmatrix}
 7 & 2 & 15 \\
 13 & 6 & 33
@@ -259,8 +248,7 @@ $$
 #### 4. D*E
 $$
 \mathbf{D} = 
-\begin{pmatrix}
--1 & 2 & 3 \\
+\begin{pmatrix}-1 & 2 & 3 \\
 4 & 0 & 6
 \end{pmatrix}
 \quad \text{and} \quad
@@ -277,11 +265,11 @@ $$
 \begin{pmatrix}
 (-1 \cdot 1 + 2 \cdot 4 + 3 \cdot 7) & (-1 \cdot 2 + 2 \cdot 5 + 3 \cdot 8) \\
 (4 \cdot 1 + 0 \cdot 4 + 6 \cdot 7) & (4 \cdot 2 + 0 \cdot 5 + 6 \cdot 8)
-\end{pmatrix}
-=
+\end{pmatrix}=
 \begin{pmatrix}
 28 & 32 \\
 46 & 56
 \end{pmatrix}
 $$
-
+---
+![alt text](<Снимок экрана 2024-12-12 082440.png>)
