@@ -261,9 +261,13 @@ $$
 $$
 
 $$
-\mathbf{D} \cdot \mathbf{E} =
+\mathbf{D} \cdot \mathbf{E} = 
 \begin{pmatrix}
-28 & 32 \\
+(-1 \cdot 1 + 2 \cdot 4 + 3 \cdot 7) & (-1 \cdot 2 + 2 \cdot 5 + 3 \cdot 8) \\
+(4 \cdot 1 + 0 \cdot 4 + 6 \cdot 7) & (4 \cdot 2 + 0 \cdot 5 + 6 \cdot 8)
+\end{pmatrix} = 
+\begin{pmatrix}
+26 & 28 \\
 46 & 56
 \end{pmatrix}
 $$
