@@ -402,25 +402,33 @@ $$
 ---
 
 ### 2: Eliminate the parameter \( t \) to find the Cartesian form
+
 From the parametric equation \( x = 1 + 2t \), solve for \( t \):
+
 $$
 t = \frac{x - 1}{2}
 $$
 
 Substitute this expression for \( t \) into \( y = 2 + 3t \):
+
 $$
 y = 2 + 3\left(\frac{x - 1}{2}\right)
 $$
+
 Simplify:
+
 $$
 y = 2 + \frac{3(x - 1)}{2}
 $$
+
 $$
 y = 2 + \frac{3x}{2} - \frac{3}{2}
 $$
+
 $$
 y = \frac{3x}{2} + \frac{4}{2} - \frac{3}{2}
 $$
+
 $$
 y = \frac{3x}{2} + \frac{1}{2}
 $$
@@ -446,22 +454,31 @@ y = 2x + 1
 $$
 
 ### 2. Line Perpendicular to \( y = 2x + 3 \):
+
 Two lines are perpendicular if the product of their slopes is \(-1\). Let the slope of the perpendicular line be \( m' \). The relationship between the slopes of the given line and the perpendicular line is:
+
 $$
 m \cdot m' = -1
 $$
+
 Given that the slope of the original line is \( m = 2 \), we solve for \( m' \):
+
 $$
 2 \cdot m' = -1 \quad \Rightarrow \quad m' = -\frac{1}{2}
 $$
+
 Thus, the slope of the perpendicular line is \( m' = -\frac{1}{2} \). The equation of a perpendicular line can be written as:
+
 $$
 y = -\frac{1}{2}x + b
 $$
+
 where \( b \) is any y-intercept. For example, if \( b = 4 \), the equation of the perpendicular line is:
+
 $$
 y = -\frac{1}{2}x + 4
 $$
+
 
 ### Finally:
 - A parallel line: \( y = 2x + 1 \)
