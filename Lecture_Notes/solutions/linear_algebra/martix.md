@@ -350,32 +350,25 @@ $$
 $$
 
 ---
+## 2: Find the angle between the two lines
 
-### 2: Find the angle between the two lines
-The slopes of the lines are:
-$$
-m_1 = 2 \quad \text{(from } y = 2x + 3 \text{)}
-$$
-$$
-m_2 = 3 \quad \text{(from } y = 3x + 2 \text{)}.
-$$
+The slopes of the lines are: 
+
+$$ m_1 = 2 \quad \text{from} \quad y = 2x + 3 $$ 
+$$ m_2 = 3 \quad \text{from} \quad y = 3x + 2 $$
 
 The angle between the lines is given by:
-$$
-\tan\theta = \left| \frac{m_2 - m_1}{1 + m_1 m_2} \right|
-$$
-Substitute \( m_1 = 2 \) and \( m_2 = 3 \):
-$$
-\tan\theta = \left| \frac{3 - 2}{1 + (2)(3)} \right|
-$$
-$$
-\tan\theta = \left| \frac{1}{1 + 6} \right| = \left| \frac{1}{7} \right|
-$$
 
-Now, find the angle  by taking the arctangent:
-$$
-\theta = \arctan\left( \frac{1}{7} \right)
-$$
+$$ \tan\theta = \left| \frac{m_2 - m_1}{1 + m_1 m_2} \right| $$ 
+
+Substitute \( m_1 = 2 \) and \( m_2 = 3 \):
+
+$$ \tan\theta = \left| \frac{3 - 2}{1 + (2)(3)} \right| = \left| \frac{1}{7} \right| $$
+
+Now, find the angle by taking the arctangent:
+
+$$ \theta = \arctan\left( \frac{1}{7} \right) $$ 
+
 
 ---
 
