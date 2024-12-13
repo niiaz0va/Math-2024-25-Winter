@@ -285,100 +285,129 @@ $$
 ![alt text](<Снимок экрана 2024-12-12 082440.png>)
 ---
 ## 14. Equations of lines on a plane
-### 3.The line passes through point $A(1, 2)$ and is perpendicular to the line $y = 2x + 3$.
+
+### 3. The line passes through point \( A(1, 2) \) and is perpendicular to the line \( y = 2x + 3 \).
+
 ---
-###  1: Find the slope of the given line
-The slope of the line y = 2x + 3 is  m1 = 2.
+
+### 1: Find the slope of the given line
+
+The slope of the line \( y = 2x + 3 \) is \( m_1 = 2 \).
 
 ### 2: Determine the slope of the perpendicular line
+
 $$
 m_1 \cdot m_2 = -1
 $$
+
 $$
 2 \cdot m_2 = -1
 $$
+
 $$
 m_2 = -\frac{1}{2}
 $$
 
 ### 3: Write the equation of the line
+
 $$
 y - y_1 = m(x - x_1)
 $$
+
 $$
 y - 2 = -\frac{1}{2}(x - 1)
 $$
 
 ### 4: Simplify the equation
+
 Expand and simplify:
+
 $$
 y - 2 = -\frac{1}{2}x + \frac{1}{2}
 $$
+
 $$
 y = -\frac{1}{2}x + \frac{5}{2}
 $$
 
 So, the equation of the line is:
+
 $$
 y = -\frac{1}{2}x + \frac{5}{2}
 $$
----
-### 4.To find the intersection point and the angle between the lines \( y = 2x + 3 \) and \( y = 3x + 2 \).
 
+---
+
+### 4. To find the intersection point and the angle between the lines \( y = 2x + 3 \) and \( y = 3x + 2 \).
 
 ### 1: Find the intersection point
 
 $$
 2x + 3 = 3x + 2
 $$
+
 Simplify:
+
 $$
 3 = x + 2
 $$
+
 $$
 x = 1
 $$
 
 Substitute \( x = 1 \) into either equation to find \( y \):
+
 $$
 y = 2(1) + 3 = 5
 $$
 
 Thus, the intersection point is:
+
 $$
 (1, 5)
 $$
 
 ---
-## 2: Find the angle between the two lines
+
+### 2: Find the angle between the two lines
 
 The slopes of the lines are: 
 
 $$ m_1 = 2 \quad \text{from} \quad y = 2x + 3 $$ 
+
 $$ m_2 = 3 \quad \text{from} \quad y = 3x + 2 $$
 
 The angle between the lines is given by:
 
-$$ \tan\theta = \left| \frac{m_2 - m_1}{1 + m_1 m_2} \right| $$ 
+$$ 
+\tan\theta = \left| \frac{m_2 - m_1}{1 + m_1 m_2} \right|
+$$
 
 Substitute \( m_1 = 2 \) and \( m_2 = 3 \):
 
-$$ \tan\theta = \left| \frac{3 - 2}{1 + (2)(3)} \right| = \left| \frac{1}{7} \right| $$
+$$
+\tan\theta = \left| \frac{3 - 2}{1 + (2)(3)} \right| = \left| \frac{1}{7} \right|
+$$
 
 Now, find the angle by taking the arctangent:
 
-$$ \theta = \arctan\left( \frac{1}{7} \right) $$ 
-
+$$ 
+\theta = \arctan\left( \frac{1}{7} \right)
+$$
 
 ---
 
 ### **Finally**
+
 - **Intersection Point**: \( (1, 5) \)
 - **Angle Between the Lines**:
 $$
 \theta = \arctan\left( \frac{1}{7} \right) \approx 8.13^\circ
 $$
+
 ---
+
 ### 5. Find the equation of a line passing through the point \( A(1, 2) \) and parallel to the vector \( \mathbf{v} = [2, 3] \)
 
 ---
@@ -388,13 +417,17 @@ $$
 $$
 x = x_1 + t v_x
 $$
+
 $$
 y = y_1 + t v_y
 $$
+
 where \( t \) is a parameter
+
 $$
 x = 1 + 2t
 $$
+
 $$
 y = 2 + 3t
 $$
@@ -440,15 +473,21 @@ $$
 $$
 y = \frac{3}{2}x + \frac{1}{2}
 $$
+
 ---
+
 ### 6. We are given the line equation \( y = 2x + 3 \)
 
-### 1. Line Parallel to  \(y = 2x + 3 \):
-The slope of the parallel line will also be 2. 
+### 1. Line Parallel to \( y = 2x + 3 \):
+
+The slope of the parallel line will also be 2.
+
 $$
 y = 2x + b
 $$
+
 where \( b \) is any y-intercept. For example, if \( b = 1 \), the equation of the parallel line is:
+
 $$
 y = 2x + 1
 $$
@@ -479,11 +518,15 @@ $$
 y = -\frac{1}{2}x + 4
 $$
 
+---
 
 ### Finally:
+
 - A parallel line: \( y = 2x + 1 \)
-- A perpendicular line: \( y = -\frac{1}{2}x + 4 \) ? question
+- A perpendicular line: \( y = -\frac{1}{2}x + 4 \)
+
 ---
+
 ### 7. To find the distance from a point \( A(x_1, y_1) \) to a line given by the equation \( Ax + By + C = 0 \), we use the following formula:
 
 $$
@@ -517,11 +560,15 @@ $$
 $$
 
 ### Finally:
+
 The distance from point \( A(1, 2) \) to the line \( y = 2x + 3 \) is:
+
 $$
 \frac{3\sqrt{5}}{5}
 $$
+
 ---
+
 ### 8. We are given that the line intersects the coordinate axes at points \( A(2, 0) \) and \( B(0, 3) \). Find the equation of the line, we can use the **two-point form** of the equation of a line, which is:
 
 $$
@@ -531,19 +578,18 @@ $$
 ### Step 1: Find the slope of the line
 
 The slope \( m \) of the line through points \( A(2, 0) \) and \( B(0, 3) \) is given by the formula:
-![alt text](image-1.png)
-
-
-Substitute the coordinates of points \( A(2, 0) \) and \( B(0, 3) \):
 
 $$
 m = \frac{3 - 0}{0 - 2} = \frac{3}{-2} = -\frac{3}{2}
 $$
 
-### 
-![alt text](image.png)
+### Step 2: Write the equation of the line
 
+Substitute the slope \( m = -\frac{3}{2} \) and point \( A(2, 0) \) into the two-point form:
 
+$$
+y - 0 = -\frac{3}{2}(x - 2)
+$$
 
 Simplify the equation:
 
@@ -553,26 +599,27 @@ $$
 
 ### Step 3: Expand the equation
 
-
 $$
 y = -\frac{3}{2}x + 3
 $$
 
 ### Finally:
+
 The equation of the line is:
 
 $$
 y = -\frac{3}{2}x + 3
 $$
+
 ---
+
 ### 9. We are given the line equation \( y = x + 3 \), need to calculate the angle between the line and the \( Ox \)-axis.
 
 ### Step 1: Find the slope of the line
 
 The equation of the line is in slope-intercept form \( y = mx + b \), where \( m \) is the slope. From the equation \( y = x + 3 \), we see that the slope \( m = 1 \).
 
-### Step 2: Use the formula for $$ \theta $$the angle between the line and the \( Ox \)-axis
-
+### Step 2: Use the formula for \( \theta \), the angle between the line and the \( Ox \)-axis
 
 $$
 \tan(\theta) = m
@@ -584,7 +631,7 @@ $$
 \tan(\theta) = 1
 $$
 
-### Step 3 To find $$ \theta $$ take the inverse tangent (arctan) of both sides:
+### Step 3: To find \( \theta \), take the inverse tangent (arctan) of both sides:
 
 $$
 \theta = \tan^{-1}(1)
@@ -597,6 +644,7 @@ $$
 $$
 
 ### Final Answer:
+
 The angle between the line \( y = x + 3 \) and the \( Ox \)-axis is:
 
 $$
@@ -604,75 +652,93 @@ $$
 $$
 
 ---
-### 10 . We are given the line equation \( x + y + 1 = 0 \), and we need to find a vector perpendicular to this line.
 
+### 10. We are given the line equation \( x + y + 1 = 0 \), and we need to find a vector perpendicular to this line.
 
-
-![alt text](image-2.png)
+---
 
 ## 15. Equations of second-order curves (conic sections)
-### 1.The equation of a circle with center at point \( A(h, k) \) and radius \( r \) is given by the standard form:
+
+### 1. The equation of a circle with center at point \( A(h, k) \) and radius \( r \) is given by the standard form:
 
 $$
 (x - h)^2 + (y - k)^2 = r^2
 $$
 
 ### Given:
+
 - Center \( A(1, 2) \), so \( h = 1 \) and \( k = 2 \).
 - Radius \( r = 3 \), so \( r^2 = 9 \).
 
-###  Substitute the values into the equation
+### Substitute the values into the equation
 
 Substitute \( h = 1 \), \( k = 2 \), and \( r = 3 \) into the general equation:
 
 $$
 (x - 1)^2 + (y - 2)^2 = 9
 $$
+
 ---
-### 2.To find the equation of a parabola intersecting the $Ox$ axis at points $x = 2$ and $x = 4$, and passing through the point $(3, 1)$, we can proceed as follows:
+
+### 2. To find the equation of a parabola intersecting the \( Ox \) axis at points \( x = 2 \) and \( x = 4 \), and passing through the point \( (3, 1) \), we can proceed as follows:
 
 ### Step 1: General Form of the Parabola
-Since the parabola intersects the $Ox$ axis at $x = 2$ and $x = 4$, we can express the equation of the parabola as:
+
+Since the parabola intersects the \( Ox \) axis at \( x = 2 \) and \( x = 4 \), we can express the equation of the parabola as:
+
 $$
 y = a(x - 2)(x - 4)
 $$
-where $a$ is a constant to be determined.
 
-### Step 2: Use the Point $(3, 1)$
-We know the parabola passes through the point $(3, 1)$. Substituting $x = 3$ and $y = 1$ into the equation:
+where \( a \) is a constant to be determined.
+
+### Step 2: Use the Point \( (3, 1) \)
+
+We know the parabola passes through the point \( (3, 1) \). Substituting \( x = 3 \) and \( y = 1 \) into the equation:
+
 $$
 1 = a(3 - 2)(3 - 4)
 $$
+
 This simplifies to:
+
 $$
 1 = a(1)(-1)
 $$
+
 $$
 1 = -a
 $$
+
 Thus, we find:
+
 $$
 a = -1
 $$
 
 ### Step 3: Write the Final Equation
-Substitute $a = -1$ into the equation of the parabola:
+
+Substitute \( a = -1 \) into the equation of the parabola:
+
 $$
 y = -1(x - 2)(x - 4)
 $$
+
 Simplifying:
+
 $$
 y = -(x - 2)(x - 4)
 $$
+
 Expanding:
+
 $$
 y = -x^2 + 6x - 8
 $$
 
 Thus, the equation of the parabola is:
+
 $$
 y = -x^2 + 6x - 8
 $$
 ---
-### 3. 
-
