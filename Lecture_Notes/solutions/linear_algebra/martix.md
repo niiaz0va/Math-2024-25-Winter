@@ -742,3 +742,296 @@ $$
 y = -x^2 + 6x - 8
 $$
 ---
+# 19 Limits of Sequences
+## 1.
+## Problem 1: 
+$$
+ \lim_{n \to \infty} \frac{n^2 + 3n}{2n^2 - 2n} 
+ $$
+
+### Step 1: Factor out the highest power of \( n \)
+$$
+\frac{n^2 + 3n}{2n^2 - 2n} = \frac{n^2(1 + \frac{3}{n})}{n^2(2 - \frac{2}{n})}.
+$$
+
+### Step 2: Simplify the fraction
+$$
+\frac{n^2(1 + \frac{3}{n})}{n^2(2 - \frac{2}{n})} = \frac{1 + \frac{3}{n}}{2 - \frac{2}{n}}.
+$$
+
+### Step 3: 
+$$
+\text{As } n \to \infty, \frac{3}{n} \to 0 \text{ and } \frac{2}{n} \to 0:
+$$
+
+$$
+\lim_{n \to \infty} \frac{1 + \frac{3}{n}}{2 - \frac{2}{n}} = \frac{1 + 0}{2 - 0} = \frac{1}{2}.
+$$
+
+**Final Answer:**
+$$
+\lim_{n \to \infty} \frac{n^2 + 3n}{2n^2 - 2n} = \frac{1}{2}.
+$$
+
+---
+
+## Problem 2: 
+$$
+\lim_{n \to \infty} \frac{(2n+3)^3}{n^3-1} 
+$$
+
+### Step 1: Expand the numerator
+The numerator \( (2n + 3)^3 \) expands as:
+$$
+(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3
+
+(2n + 3)^3 = 8n^3 + 36n^2 + 54n + 27.
+$$
+
+Thus, the fraction becomes:
+$$
+\frac{(2n+3)^3}{n^3-1} = \frac{8n^3 + 36n^2 + 54n + 27}{n^3 - 1}.
+$$
+
+### Step 2: Factor out the highest power of \( n \)
+Divide through by \( n^3 \):
+$$
+\frac{8n^3 + 36n^2 + 54n + 27}{n^3 - 1} = \frac{n^3 \left( 8 + \frac{36}{n} + \frac{54}{n^2} + \frac{27}{n^3} \right)}{n^3 \left( 1 - \frac{1}{n^3} \right)}.
+$$
+
+### Step 3: Simplify the fraction
+$$
+\frac{8 + \frac{36}{n} + \frac{54}{n^2} + \frac{27}{n^3}}{1 - \frac{1}{n^3}}.
+$$
+
+### Step 4: 
+$$
+\text{As} \ n \to \infty \, \\frac{36}{n} \to 0 \, \\frac{54}{n^2} \to 0 \, \ \frac{27}{n^3} \to 0 \, and \ \frac{1}{n^3} \to 0 \:
+$$
+
+$$
+\lim_{n \to \infty} \frac{8 + \frac{36}{n} + \frac{54}{n^2} + \frac{27}{n^3}}{1 - \frac{1}{n^3}} = \frac{8 + 0 + 0 + 0}{1 - 0} = 8.
+$$
+
+**Final Answer:**
+$$
+\lim_{n \to \infty} \frac{(2n+3)^3}{n^3-1} = 8.
+$$
+---
+## 2 . Proof Using the Squeeze Theorem
+
+We are tasked with proving that:
+
+$$
+\lim_{n \to \infty} \frac{\sin(n)}{n} = 0
+$$
+
+### Step 1:
+$$
+\text {Analyze the bounds of} \ \sin(n) \
+$$
+
+The sine function is bounded for all real numbers \( n \), so:
+
+$$
+-1 \leq \sin(n) \leq 1
+$$
+
+### Step 2: Divide the inequality by \( n \) (for \( n > 0 \))
+
+Since \( n \) is positive as \( n \to \infty \), we can divide the inequality by \( n \):
+
+$$
+\frac{-1}{n} \leq \frac{\sin(n)}{n} \leq \frac{1}{n}
+$$
+
+### Step 3: 
+$$
+\text {Take the limit of the bounds as} \ n \to \infty 
+$$
+
+Now, we compute the limits of the bounds:
+
+- The limit of \( \frac{-1}{n} \) as \( n \to \infty \) is \( 0 \):
+
+$$
+\lim_{n \to \infty} \frac{-1}{n} = 0
+$$
+
+- The limit of \( \frac{1}{n} \) as \( n \to \infty \) is also \( 0 \):
+
+$$
+\lim_{n \to \infty} \frac{1}{n} = 0
+$$
+
+### Step 4: Apply the Squeeze Theorem
+
+Since we have:
+
+$$
+\frac{-1}{n} \leq \frac{\sin(n)}{n} \leq \frac{1}{n}
+$$
+
+and both the lower and upper bounds approach 0 as \( n \to \infty \), by the **Squeeze Theorem**, we conclude that:
+
+$$
+\lim_{n \to \infty} \frac{\sin(n)}{n} = 0
+$$
+
+### Final Answer:
+
+$$
+\lim_{n \to \infty} \frac{\sin(n)}{n} = 0
+$$
+---
+# 3. Limit of the Sequence
+
+
+### Step 1: Sequence Setup
+
+We are given the sequence:
+
+$$
+a_n = \left( 1 + \frac{1}{n} \right)^n
+$$
+
+### Step 2: Recognize the Limit
+
+This is a standard limit that is used to define the number \( e \) (Euler's number). The limit is known to be:
+
+$$
+\lim_{n \to \infty} \left( 1 + \frac{1}{n} \right)^n = e
+$$
+
+### Step 3: Conclusion
+$$
+\text {Therefore, the limit of the sequence} \ a_n \ as \ n \to \infty \ is:
+$$ 
+$$
+\lim_{n \to \infty} \left( 1 + \frac{1}{n} \right)^n = e
+$$
+---
+## 20 . Limit of the Real Function
+## 1.
+We are tasked with computing the limit:
+
+$$
+\lim_{x \to \infty} \frac{x^3 + 2x^2}{x^4 - 3x^3}
+$$
+
+### Step 1: Analyze the Degrees of the Polynomial
+
+- The numerator is \( x^3 + 2x^2 \), and the highest power of \( x \) in the numerator is \( x^3 \).
+- The denominator is \( x^4 - 3x^3 \), and the highest power of \( x \) in the denominator is \( x^4 \).
+
+### Step 2: Simplify by Dividing by the Highest Power of \( x \)
+
+Since the highest degree in the denominator is \( x^4 \), we divide both the numerator and denominator by \( x^4 \) to simplify:
+
+$$
+\frac{x^3 + 2x^2}{x^4 - 3x^3} = \frac{\frac{x^3}{x^4} + \frac{2x^2}{x^4}}{\frac{x^4}{x^4} - \frac{3x^3}{x^4}} = \frac{\frac{1}{x} + \frac{2}{x^2}}{1 - \frac{3}{x}}
+$$
+
+### Step 3:
+$$
+\text {As} \ x \to \infty \:
+$$
+$$
+\ \frac{1}{x} \to 0 \
+\ \frac{2}{x^2} \to 0 \
+\ \frac{3}{x} \to 0 \
+$$
+Thus, the expression simplifies to:
+
+$$
+\frac{0 + 0}{1 - 0} = 0
+$$
+
+### Final Answer:
+
+$$
+\lim_{x \to \infty} \frac{x^3 + 2x^2}{x^4 - 3x^3} = 0
+$$
+
+---
+## 2. We are tasked with finding the limit:
+
+$$
+\lim_{x \to 0} \frac{\sin(3x)}{2x+1}.
+$$
+
+### Step 1: Evaluate the limit of the numerator as \( x \to 0 \)
+$$
+\text {The numerator is} \ \sin(3x) \ . \text{We know that}:
+$$
+$$
+\lim_{x \to 0} \sin(3x) = \sin(0) = 0.
+$$
+
+### Step 2: Evaluate the limit of the denominator as \( x \to 0 \)
+The denominator is \( 2x + 1 \). Substituting \( x = 0 \):
+
+$$
+2(0) + 1 = 1.
+$$
+
+### Step 3: Combine the results
+Now we can compute the overall limit:
+
+$$
+\lim_{x \to 0} \frac{\sin(3x)}{2x+1} = \frac{\lim_{x \to 0} \sin(3x)}{\lim_{x \to 0} (2x+1)} = \frac{0}{1} = 0.
+$$
+
+Thus, the value of the limit is:
+
+$$
+\boxed{0}.
+$$
+ ## 3.We are tasked with finding the asymptotes of the functions:
+
+### 1. 
+$$
+\ f(x) = \frac{x^2 - 1}{x^2 + 1} \
+$$
+
+#### Step 1: Horizontal Asymptotes
+$$
+\text{As} \ x \to \infty \ 
+$$
+$$
+\lim_{x \to \infty} f(x) = \lim_{x \to \infty} \frac{x^2 - 1}{x^2 + 1} = \frac{1}{1} = 1.
+$$
+
+Thus, there is a horizontal asymptote at \( y = 1 \).
+
+#### Step 2: Vertical Asymptotes
+Vertical asymptotes occur when the denominator equals zero and the numerator is non-zero at that point. The denominator is \( x^2 + 1 \), which is never zero for any real value of \( x \) (since \( x^2 + 1 > 0 \) for all \( x \)). Therefore, there are no vertical asymptotes.
+
+### Asymptotes for \( f(x) \):
+- Horizontal asymptote at \( y = 1 \).
+- No vertical asymptotes.
+
+### 2. 
+$$
+\ g(x) = \frac{\sin(x)}{x^2 + 1} \
+$$
+
+#### Step 1: Horizontal Asymptotes
+To find horizontal asymptotes, we examine the behavior of \( g(x) \) as \( x \to \infty \) and \( x \to -\infty \).
+
+- As \( x \to \infty \) or \( x \to -\infty \), the denominator \( x^2 + 1 \) grows much faster than the numerator \( \sin(x) \), which is bounded between -1 and 1. Hence, we have:
+
+$$
+\lim_{x \to \infty} g(x) = \lim_{x \to \infty} \frac{\sin(x)}{x^2 + 1} = 0.
+$$
+
+Thus, there is a horizontal asymptote at \( y = 0 \).
+
+#### Step 2: Vertical Asymptotes
+Vertical asymptotes occur when the denominator equals zero and the numerator is non-zero at that point. The denominator is \( x^2 + 1 \), which is never zero for any real value of \( x \). Therefore, there are no vertical asymptotes.
+
+### Asymptotes for \( g(x) \):
+- Horizontal asymptote at \( y = 0 \).
+- No vertical asymptotes.
+
+ 
