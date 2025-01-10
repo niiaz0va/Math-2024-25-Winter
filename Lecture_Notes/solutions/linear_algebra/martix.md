@@ -1391,6 +1391,7 @@ $$
 \lim_{n \to \infty} \frac{n^2 + 3n}{2n^2 - 2n} = \frac{1}{2}.
 $$
 
+
 ---
 
 ## Problem 2: 
