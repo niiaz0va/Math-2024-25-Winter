@@ -1423,6 +1423,7 @@ $$
 ### Step 1: Expand the numerator
 
 The numerator $ (2n + 3)^3 $ expands as:
+
 $$
 (a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3
 
