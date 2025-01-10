@@ -1386,7 +1386,8 @@ $$
 \lim_{n \to \infty} \frac{1 + \frac{3}{n}}{2 - \frac{2}{n}} = \frac{1 + 0}{2 - 0} = \frac{1}{2}.
 $$
 
-**Final Answer:**
+**Final Answer is:**
+
 $$
 \frac{1}{2}.
 $$
@@ -1688,7 +1689,7 @@ $$
 $$
 
 ### Step 1: Expand the numerator
-The numerator $ (2n + 3)^3 $ expands as:
+The numerator $ (2n + 3)^3 $ expands as: 
 $$
 (a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3
 
