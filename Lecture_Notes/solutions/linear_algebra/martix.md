@@ -1384,8 +1384,7 @@ $$
  \lim_{n \to \infty} \frac{n^2 + 3n}{2n^2 - 2n} 
  $$
 
-### Step 1: Factor out the highest power of $ n $
-
+### Step 1: Factor out the highest power of n
 $$
 \frac{n^2 + 3n}{2n^2 - 2n} = \frac{n^2(1 + \frac{3}{n})}{n^2(2 - \frac{2}{n})}.
 $$
