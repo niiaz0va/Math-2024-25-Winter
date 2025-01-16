@@ -426,7 +426,7 @@ $$
 
 ---
 
-### 5. Find the equation of a line passing through the point $ A(1, 2) $ and parallel to the vector $ \mathbf{v} = [2, 3] $
+### 5. Find the equation of a line passing through the point A(1, 2) and parallel to the vector $\mathbf{v} = [2, 3]$
 
 ---
 
