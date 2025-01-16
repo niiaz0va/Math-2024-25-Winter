@@ -440,7 +440,7 @@ $$
 y = y_1 + t v_y
 $$
 
-where $ t $ is a parameter
+where t is a parameter
 
 $$
 x = 1 + 2t
@@ -452,15 +452,15 @@ $$
 
 ---
 
-### 2: Eliminate the parameter $ t $ to find the Cartesian form
+### 2: Eliminate the parameter t to find the Cartesian form
 
-From the parametric equation $ x = 1 + 2t $, solve for $ t $:
+From the parametric equation  x = 1 + 2t , solve for  t :
 
 $$
 t = \frac{x - 1}{2}
 $$
 
-Substitute this expression for $ t $ into $ y = 2 + 3t $:
+Substitute this expression for  t  into  y = 2 + 3t :
 
 $$
 y = 2 + 3\left(\frac{x - 1}{2}\right)
@@ -494,9 +494,9 @@ $$
 
 ---
 
-### 6. We are given the line equation $ y = 2x + 3 $
+### 6. We are given the line equation $y = 2x + 3$
 
-### 1. Line Parallel to $ y = 2x + 3 $:
+### 1. Line Parallel to $y = 2x + 3$:
 
 The slope of the parallel line will also be 2.
 
@@ -504,33 +504,33 @@ $$
 y = 2x + b
 $$
 
-where $ b $ is any y-intercept. For example, if $ b = 1 $, the equation of the parallel line is:
+where b is any y-intercept. For example, if b = 1 , the equation of the parallel line is:
 
 $$
 y = 2x + 1
 $$
 
-### 2. Line Perpendicular to $ y = 2x + 3 $:
+### 2. Line Perpendicular to $y = 2x + 3$:
 
-Two lines are perpendicular if the product of their slopes is $-1$. Let the slope of the perpendicular line be $ m' $. The relationship between the slopes of the given line and the perpendicular line is:
+Two lines are perpendicular if the product of their slopes is $-1$. Let the slope of the perpendicular line be $m'$. The relationship between the slopes of the given line and the perpendicular line is:
 
 $$
 m \cdot m' = -1
 $$
 
-Given that the slope of the original line is $ m = 2 $, we solve for $ m' $:
+Given that the slope of the original line is $m = 2$, we solve for $m'$:
 
 $$
 2 \cdot m' = -1 \quad \Rightarrow \quad m' = -\frac{1}{2}
 $$
 
-Thus, the slope of the perpendicular line is $ m' = -\frac{1}{2} $. The equation of a perpendicular line can be written as:
+Thus, the slope of the perpendicular line is $m' = -\frac{1}{2}$. The equation of a perpendicular line can be written as:
 
 $$
 y = -\frac{1}{2}x + b
 $$
 
-where $ b $ is any y-intercept. For example, if $ b = 4 $, the equation of the perpendicular line is:
+where $ b $ is any y-intercept. For example, if $b = 4$, the equation of the perpendicular line is:
 
 $$
 y = -\frac{1}{2}x + 4
@@ -540,8 +540,8 @@ $$
 
 ### Finally:
 
-- A parallel line: $ y = 2x + 1 $
-- A perpendicular line: $ y = -\frac{1}{2}x + 4 $
+- A parallel line: $y = 2x + 1$
+- A perpendicular line: $y = -\frac{1}{2}x + 4$
 
 ---
 
