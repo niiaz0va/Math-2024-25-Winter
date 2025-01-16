@@ -1804,15 +1804,15 @@ $$
 ### Step 3: Evaluate $f(\pi)$ and $f'(\pi)$
 - At $x_0 = \pi$:
 
-  $$
-  f(\pi) = e^{\sin(\pi)} = e^0 = 1
-  $$
+$$
+f(\pi) = e^{\sin(\pi)} = e^0 = 1
+$$
 
 - The derivative at $x_0 = \pi$ is:
 
-  $$
-  f'(\pi) = e^{\sin(\pi)} \cdot \cos(\pi) = 1 \cdot (-1) = -1
-  $$
+$$
+f'(\pi) = e^{\sin(\pi)} \cdot \cos(\pi) = 1 \cdot (-1) = -1
+$$
 
 ### Step 4: Write the tangent line equation
 Using the point-slope formula:
