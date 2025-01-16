@@ -1726,6 +1726,7 @@ $$
 f(x) \approx 1 - \frac{x^2}{2!} + \frac{x^4}{4!} = 1 - \frac{x^2}{2} + \frac{x^4}{24}
 $$
 
+![alt text](image-4.png)
 ---
 
 ### 2. Taylor Series for $h(x) = \frac{1}{1-x}$ around $x = 0$ up to the 4th degree
@@ -1741,6 +1742,7 @@ $$
 h(x) \approx 1 + x + x^2 + x^3 + x^4
 $$
 
+![alt text](image-5.png)
 ---
 
 ### 3. Taylor Series for $g(x) = \sin(x)$ around $x = \pi$ up to the 4th degree
@@ -1777,5 +1779,7 @@ Simplify:
 $$
 g(x) \approx -(x - \pi) + \frac{(x - \pi)^3}{6}
 $$
+
+![alt text](image-6.png)
 
 ---
