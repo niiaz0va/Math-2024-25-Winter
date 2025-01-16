@@ -1694,3 +1694,88 @@ To determine whether these points are maxima, minima, or neither, analyze the si
 - $x = 3$: This may represent an extremum.
 
 Further analysis is required to determine the exact nature of the extrema.
+
+## 23.Taylor Series
+### Find the Taylor series for the following functions and visualize the obtained functions in Geogebra:
+1. $f(x) = \cos(x)$ around $x = 0$ up to the 4th degree.
+2. $h(x) = \frac{1}{1-x}$ around $x = 0$ up to the 4th degree.
+3. $g(x) = \sin(x)$ around $x = \pi$ up to the 4th degree.
+
+---
+
+### 1. Taylor Series for $f(x) = \cos(x)$ around $x = 0$ up to the 4th degree
+The Taylor series for $f(x)$ around $x = 0$ is given by:
+
+$$
+f(x) = \sum_{n=0}^\infty \frac{f^{(n)}(0)}{n!} x^n
+$$
+
+For $f(x) = \cos(x)$:
+- $f(x) = \cos(x)$
+- $f'(x) = -\sin(x)$
+- $f''(x) = -\cos(x)$
+- $f'''(x) = \sin(x)$
+- $f^{(4)}(x) = \cos(x)$ (repeats every 4 terms)
+
+At $x = 0$:
+- $f(0) = 1$, $f'(0) = 0$, $f''(0) = -1$, $f'''(0) = 0$, $f^{(4)}(0) = 1$
+
+Thus, the Taylor series up to the 4th degree is:
+
+$$
+f(x) \approx 1 - \frac{x^2}{2!} + \frac{x^4}{4!} = 1 - \frac{x^2}{2} + \frac{x^4}{24}
+$$
+
+---
+
+### 2. Taylor Series for $h(x) = \frac{1}{1-x}$ around $x = 0$ up to the 4th degree
+The Taylor series for $h(x)$ around $x = 0$ is given by:
+
+$$
+h(x) = \sum_{n=0}^\infty x^n
+$$
+
+The first few terms of the series up to the 4th degree are:
+
+$$
+h(x) \approx 1 + x + x^2 + x^3 + x^4
+$$
+
+---
+
+### 3. Taylor Series for $g(x) = \sin(x)$ around $x = \pi$ up to the 4th degree
+First, shift $g(x)$ by $\pi$: Define $g(x) = \sin(x)$ as $g(x) = \sin(x - \pi)$.
+
+The Taylor series for $g(x)$ around $x = \pi$ is given by:
+
+$$
+g(x) = \sum_{n=0}^\infty \frac{g^{(n)}(\pi)}{n!} (x-\pi)^n
+$$
+
+For $g(x) = \sin(x)$:
+- $g(x) = \sin(x)$
+- $g'(x) = \cos(x)$
+- $g''(x) = -\sin(x)$
+- $g'''(x) = -\cos(x)$
+- $g^{(4)}(x) = \sin(x)$ (repeats every 4 terms)
+
+At $x = \pi$:
+- $g(\pi) = \sin(\pi) = 0$
+- $g'(\pi) = \cos(\pi) = -1$
+- $g''(\pi) = -\sin(\pi) = 0$
+- $g'''(\pi) = -\cos(\pi) = 1$
+- $g^{(4)}(\pi) = \sin(\pi) = 0$
+
+Thus, the Taylor series up to the 4th degree is:
+
+$$
+g(x) \approx - (x - \pi) + \frac{(x - \pi)^3}{3!}
+$$
+
+Simplify:
+
+$$
+g(x) \approx -(x - \pi) + \frac{(x - \pi)^3}{6}
+$$
+
+---
