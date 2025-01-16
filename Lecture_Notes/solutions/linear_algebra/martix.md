@@ -308,7 +308,7 @@ $$
 
 ### 1: Find the slope of the given line
 
-The slope of the line  y = 2x + 3  is $  m_1 = 2$ .
+The slope of the line $y = 2x + 3$ is $m_1 = 2$.
 
 ### 2: Determine the slope of the perpendicular line
 
