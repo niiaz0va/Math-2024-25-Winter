@@ -923,6 +923,7 @@ $$
 $$
 \lim_{n \to \infty} \frac{\sin(n)}{n} = 0
 $$
+
 ---
 
 ## 3. Limit of the Sequence
@@ -1449,11 +1450,9 @@ Vertical asymptotes occur when the denominator equals zero and the numerator is 
 - Horizontal asymptote at $y = 0$.
 - No vertical asymptotes.
 
-# 22. Extremum 
+# 22. Extremum  
 
-## 6 The profit function is given as $P(u) = -2u^2 + 50u - 300$, where $u$ is the number of units sold. Find the number of units $u$ that maximize profit.
-
-## Solution:
+## 6 . The profit function is given as $P(u) = -2u^2 + 50u - 300$, where $u$ is the number of units sold. Find the number of units $u$ that maximize profit.
 
 ### Step 1: Identify the general form of a quadratic equation
 The profit function $P(u) = -2u^2 + 50u - 300$ is a quadratic equation of the form:
@@ -1469,6 +1468,7 @@ Here:
 
 ### Step 2: Recall the formula for the vertex
 For a quadratic equation, the maximum (or minimum) value occurs at the vertex. The formula to find the $x$-coordinate (or $u$ in this case) of the vertex is:
+
 $$
 u = -\frac{b}{2a}
 $$
@@ -1476,6 +1476,7 @@ $$
 ---
 
 ### Step 3: Substitute the values of $a$ and $b$
+
 $$
 u = -\frac{b}{2a} = -\frac{50}{2(-2)} = \frac{50}{4} = 12.5
 $$
@@ -1484,6 +1485,7 @@ $$
 
 ### Step 4: Interpret the result
 The number of units $u$ that maximizes the profit is:
+
 $$
 u = 12.5
 $$
@@ -1494,16 +1496,16 @@ If you require the result in whole numbers (depending on the problem's context),
 
 ## Final Answer:
 The number of units that maximize profit is:
+
 $$
 u = 12.5
 $$
 
 ## 7.Find the extremum of $f(x) = \frac{x^2 + 2x + 1}{x - 1}$.
 
-## Solution:
-
 ### Step 1: Simplify the function
 The numerator can be factored as:
+
 $$
 x^2 + 2x + 1 = (x + 1)^2
 $$
@@ -1516,14 +1518,19 @@ $$
 
 ### Step 2: Find the derivative $f'(x)$
 Use the quotient rule:
+
 $$
 f'(x) = \frac{(x - 1) \cdot 2(x + 1) - (x + 1)^2 \cdot 1}{(x - 1)^2}
 $$
+
 Simplify the numerator:
+
 $$
 f'(x) = \frac{2(x + 1)(x - 1) - (x + 1)^2}{(x - 1)^2}
 $$
+
 Factor out $(x + 1)$:
+
 $$
 f'(x) = \frac{(x + 1)\left[2(x - 1) - (x + 1)\right]}{(x - 1)^2}
 $$
@@ -1536,6 +1543,7 @@ $$
 
 ### Step 3: Solve $f'(x) = 0$
 Set the numerator equal to zero:
+
 $$
 (x + 1)(x - 3) = 0
 $$
@@ -1548,8 +1556,6 @@ $$
 
 ### Step 4: Determine the nature of the extremum
 To determine whether these points are maxima, minima, or neither, analyze the sign of $f'(x)$ around $x = -1$ and $x = 3$ using a sign chart.
-
----
 
 ## Final Answer:
 - $x = -1$: Behavior must be checked for the function, as this point may not be valid depending on the domain.
@@ -1565,9 +1571,11 @@ Further analysis is required to determine the exact nature of the extrema.
 
 ### Step 1: Identify the general form of the quadratic function
 The function $f(x) = x^2 + 3x - 5$ is a quadratic function of the form:
+
 $$
 f(x) = ax^2 + bx + c
 $$
+
 Here:
 - $a = 1$
 - $b = 3$
@@ -1577,10 +1585,13 @@ Here:
 
 ### Step 2: Find the $x$-coordinate of the vertex
 The $x$-coordinate of the vertex is given by:
+
 $$
 x = -\frac{b}{2a}
 $$
+
 Substitute $a = 1$ and $b = 3$:
+
 $$
 x = -\frac{3}{2(1)} = -\frac{3}{2}
 $$
@@ -1589,10 +1600,13 @@ $$
 
 ### Step 3: Find the value of $f(x)$ at $x = -\frac{3}{2}$
 Substitute $x = -\frac{3}{2}$ into $f(x)$:
+
 $$
 f\left(-\frac{3}{2}\right) = \left(-\frac{3}{2}\right)^2 + 3\left(-\frac{3}{2}\right) - 5
 $$
+
 Simplify:
+
 $$
 f\left(-\frac{3}{2}\right) = \frac{9}{4} - \frac{9}{2} - 5 = \frac{9}{4} - \frac{18}{4} - \frac{20}{4} = -\frac{29}{4}
 $$
@@ -1601,9 +1615,11 @@ $$
 
 ## Final Answer:
 The extremum occurs at:
+
 $$
 x = -\frac{3}{2}, \, f(x) = -\frac{29}{4}.
 $$
+
 This is a **minimum** since $a > 0$.
 
 ## 9.Find the extremum of $f(x) = \frac{x^2 + 2x + 1}{x - 1}$.
@@ -1613,10 +1629,13 @@ This is a **minimum** since $a > 0$.
 
 ### Step 1: Simplify the function
 The numerator can be factored as:
+
 $$
 x^2 + 2x + 1 = (x + 1)^2
 $$
+
 Thus:
+
 $$
 f(x) = \frac{(x + 1)^2}{x - 1}
 $$
@@ -1625,18 +1644,25 @@ $$
 
 ### Step 2: Find the derivative $f'(x)$
 Use the quotient rule:
+
 $$
 f'(x) = \frac{(x - 1) \cdot 2(x + 1) - (x + 1)^2 \cdot 1}{(x - 1)^2}
 $$
+
 Simplify the numerator:
+
 $$
 f'(x) = \frac{2(x + 1)(x - 1) - (x + 1)^2}{(x - 1)^2}
 $$
+
 Factor out $(x + 1)$:
+
 $$
 f'(x) = \frac{(x + 1)\left[2(x - 1) - (x + 1)\right]}{(x - 1)^2}
 $$
+
 Simplify further:
+
 $$
 f'(x) = \frac{(x + 1)\left[2x - 2 - x - 1\right]}{(x - 1)^2} = \frac{(x + 1)(x - 3)}{(x - 1)^2}
 $$
@@ -1645,10 +1671,13 @@ $$
 
 ### Step 3: Solve $f'(x) = 0$
 Set the numerator equal to zero:
+
 $$
 (x + 1)(x - 3) = 0
 $$
+
 This gives:
+
 $$
 x = -1 \, \text{or} \, x = 3
 $$
