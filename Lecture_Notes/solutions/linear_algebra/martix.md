@@ -759,6 +759,7 @@ Thus, the equation of the parabola is:
 $$
 y = -x^2 + 6x - 8
 $$
+
 ---
 
 ##  19. Limits of Sequences
@@ -807,22 +808,26 @@ $$
 
 ### Step 1: Expand the numerator
 
-The numerator $ (2n + 3)^3 $ expands as:
+The numerator $(2n + 3)^3$ expands as:
 
 $$
 (a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3
+$$
 
+$$
 (2n + 3)^3 = 8n^3 + 36n^2 + 54n + 27.
 $$
 
 Thus, the fraction becomes:
+
 $$
 \frac{(2n+3)^3}{n^3-1} = \frac{8n^3 + 36n^2 + 54n + 27}{n^3 - 1}.
 $$
 
-### Step 2: Factor out the highest power of $ n $
+### Step 2: Factor out the highest power of $n$
 
-Divide through by $ n^3 $:
+Divide through by $n^3$:
+
 $$
 \frac{8n^3 + 36n^2 + 54n + 27}{n^3 - 1} = \frac{n^3 \left( 8 + \frac{36}{n} + \frac{54}{n^2} + \frac{27}{n^3} \right)}{n^3 \left( 1 - \frac{1}{n^3} \right)}.
 $$
@@ -844,9 +849,11 @@ $$
 $$
 
 **Final Answer:**
+
 $$
 \lim_{n \to \infty} \frac{(2n+3)^3}{n^3-1} = 8.
 $$
+
 ---
 
 ## 2 . Proof Using the Squeeze Theorem
@@ -863,15 +870,15 @@ $$
 \text {Analyze the bounds of} \ \sin(n) \
 $$
 
-The sine function is bounded for all real numbers $ n $, so:
+The sine function is bounded for all real numbers $n$, so:
 
 $$
 -1 \leq \sin(n) \leq 1
 $$
 
-### Step 2: Divide the inequality by $ n $ (for $ n > 0 $)
+### Step 2: Divide the inequality by $n$ (for$ n > 0$)
 
-Since $ n $ is positive as $ n \to \infty $, we can divide the inequality by $ n $:
+Since $n$ is positive as $n \to \infty$, we can divide the inequality by $n$:
 
 $$
 \frac{-1}{n} \leq \frac{\sin(n)}{n} \leq \frac{1}{n}
@@ -885,13 +892,13 @@ $$
 
 Now, we compute the limits of the bounds:
 
- The limit of $ \frac{-1}{n} $ as $ n \to \infty $ is $0 $:
+ The limit of $\frac{-1}{n}$ as $n \to \infty$ is $0$:
 
 $$
 \lim_{n \to \infty} \frac{-1}{n} = 0
 $$
 
-The limit of $ \frac{1}{n} $ as $ n \to \infty $ is also $ 0 $:
+The limit of $\frac{1}{n}$ as $n \to \infty$ is also $0$:
 
 $$
 \lim_{n \to \infty} \frac{1}{n} = 0
@@ -905,7 +912,7 @@ $$
 \frac{-1}{n} \leq \frac{\sin(n)}{n} \leq \frac{1}{n}
 $$
 
-and both the lower and upper bounds approach 0 as $ n \to \infty $, by the **Squeeze Theorem**, we conclude that:
+and both the lower and upper bounds approach 0 as $n \to \infty$, by the **Squeeze Theorem**, we conclude that:
 
 $$
 \lim_{n \to \infty} \frac{\sin(n)}{n} = 0
@@ -942,9 +949,11 @@ $$
 $$
 \text {Therefore, the limit of the sequence} \ a_n \ as \ n \to \infty \ is:
 $$ 
+
 $$
 \lim_{n \to \infty} \left( 1 + \frac{1}{n} \right)^n = e
 $$
+
 ---
 
 ## 20 . Limit of the Real Function
@@ -959,12 +968,12 @@ $$
 
 ### Step 1: Analyze the Degrees of the Polynomial
 
-- The numerator is $ x^3 + 2x^2 $, and the highest power of $ x $ in the numerator is $ x^3 $.
-- The denominator is $ x^4 - 3x^3 $, and the highest power of $ x $ in the denominator is $ x^4 $.
+- The numerator is $x^3 + 2x^2$, and the highest power of $x$ in the numerator is $x^3$.
+- The denominator is $x^4 - 3x^3$, and the highest power of $x$ in the denominator is $x^4$.
 
-### Step 2: Simplify by Dividing by the Highest Power of $ x $
+### Step 2: Simplify by Dividing by the Highest Power of $x$
 
-Since the highest degree in the denominator is $ x^4 $, we divide both the numerator and denominator by $ x^4 $ to simplify:
+Since the highest degree in the denominator is $x^4$, we divide both the numerator and denominator by $x^4$ to simplify:
 
 $$
 \frac{x^3 + 2x^2}{x^4 - 3x^3} = \frac{\frac{x^3}{x^4} + \frac{2x^2}{x^4}}{\frac{x^4}{x^4} - \frac{3x^3}{x^4}} = \frac{\frac{1}{x} + \frac{2}{x^2}}{1 - \frac{3}{x}}
@@ -975,11 +984,13 @@ $$
 $$
 \text {As} \ x \to \infty \:
 $$
+
 $$
 \ \frac{1}{x} \to 0 \
 \ \frac{2}{x^2} \to 0 \
 \ \frac{3}{x} \to 0 \
 $$
+
 Thus, the expression simplifies to:
 
 $$
@@ -1000,18 +1011,19 @@ $$
 \lim_{x \to 0} \frac{\sin(3x)}{2x+1}.
 $$
 
-### Step 1: Evaluate the limit of the numerator as $ x \to 0 $
+### Step 1: Evaluate the limit of the numerator as$ x \to 0$
 
 $$
 \text {The numerator is} \ \sin(3x) \ . \text{We know that}:
 $$
+
 $$
 \lim_{x \to 0} \sin(3x) = \sin(0) = 0.
 $$
 
-### Step 2: Evaluate the limit of the denominator as $ x \to 0 $
+### Step 2: Evaluate the limit of the denominator as $x \to 0$
 
-The denominator is $ 2x + 1 $. Substituting $ x = 0 $:
+The denominator is 2x + 1 . Substituting x = 0 :
 
 $$
 2(0) + 1 = 1.
@@ -1044,19 +1056,20 @@ $$
 $$
 \text{As} \ x \to \infty \ 
 $$
+
 $$
 \lim_{x \to \infty} f(x) = \lim_{x \to \infty} \frac{x^2 - 1}{x^2 + 1} = \frac{1}{1} = 1.
 $$
 
-Thus, there is a horizontal asymptote at $ y = 1 $.
+Thus, there is a horizontal asymptote at y = 1.
 
 #### Step 2: Vertical Asymptotes
 
-Vertical asymptotes occur when the denominator equals zero and the numerator is non-zero at that point. The denominator is $ x^2 + 1 $, which is never zero for any real value of $ x $ (since $ x^2 + 1 > 0 $ for all $ x $). Therefore, there are no vertical asymptotes.
+Vertical asymptotes occur when the denominator equals zero and the numerator is non-zero at that point. The denominator is $x^2 + 1$, which is never zero for any real value of $x$ (since $x^2 + 1 > 0$ for all $x$). Therefore, there are no vertical asymptotes.
 
-### Asymptotes for $ f(x) $:
+### Asymptotes for $f(x)$:
 
-- Horizontal asymptote at $ y = 1 $.
+- Horizontal asymptote at $y = 1$.
 - No vertical asymptotes.
 
 ### 2. 
@@ -1067,29 +1080,29 @@ $$
 
 #### Step 1: Horizontal Asymptotes
 
-To find horizontal asymptotes, we examine the behavior of $ g(x) $ as $ x \to \infty $ and $ x \to -\infty $.
+To find horizontal asymptotes, we examine the behavior of $g(x)$ as $x \to \infty$ and $x \to -\infty$.
 
-- As $ x \to \infty $ or $ x \to -\infty $, the denominator $ x^2 + 1 $ grows much faster than the numerator $ \sin(x) $, which is bounded between -1 and 1. Hence, we have:
+- As $x \to \infty$ or $x \to -\infty$, the denominator $x^2 + 1$ grows much faster than the numerator $\sin(x)$, which is bounded between -1 and 1. Hence, we have:
 
 $$
 \lim_{x \to \infty} g(x) = \lim_{x \to \infty} \frac{\sin(x)}{x^2 + 1} = 0.
 $$
 
-Thus, there is a horizontal asymptote at $ y = 0 $.
+Thus, there is a horizontal asymptote at $y = 0$.
 
 #### Step 2: Vertical Asymptotes
 
-Vertical asymptotes occur when the denominator equals zero and the numerator is non-zero at that point. The denominator is $ x^2 + 1 $, which is never zero for any real value of $ x $. Therefore, there are no vertical asymptotes.
+Vertical asymptotes occur when the denominator equals zero and the numerator is non-zero at that point. The denominator is $x^2 + 1$, which is never zero for any real value of $x$. Therefore, there are no vertical asymptotes.
 
-### Asymptotes for $ g(x) $:
+### Asymptotes for $g(x)$:
 
-- Horizontal asymptote at $ y = 0 $.
+- Horizontal asymptote at $y = 0$.
 - No vertical asymptotes.
 
  
 =======
 
-### Step 1: Factor out the highest power of $ n $
+### Step 1: Factor out the highest power of $n$
 
 $$
 \frac{n^2 + 3n}{2n^2 - 2n} = \frac{n^2(1 + \frac{3}{n})}{n^2(2 - \frac{2}{n})}.
@@ -1112,6 +1125,7 @@ $$
 $$
 
 **Final Answer:**
+
 $$
 \lim_{n \to \infty} \frac{n^2 + 3n}{2n^2 - 2n} = \frac{1}{2}.
 $$
@@ -1126,21 +1140,26 @@ $$
 
 ### Step 1: Expand the numerator
 
-The numerator $ (2n + 3)^3 $ expands as: 
+The numerator $(2n + 3)^3$ expands as: 
+
 $$
 (a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3
+$$
 
+$$
 (2n + 3)^3 = 8n^3 + 36n^2 + 54n + 27.
 $$
 
 Thus, the fraction becomes:
+
 $$
 \frac{(2n+3)^3}{n^3-1} = \frac{8n^3 + 36n^2 + 54n + 27}{n^3 - 1}.
 $$
 
-### Step 2: Factor out the highest power of $ n $
+### Step 2: Factor out the highest power of $n$
 
-Divide through by $ n^3 $:
+Divide through by $n^3$:
+
 $$
 \frac{8n^3 + 36n^2 + 54n + 27}{n^3 - 1} = \frac{n^3 \left( 8 + \frac{36}{n} + \frac{54}{n^2} + \frac{27}{n^3} \right)}{n^3 \left( 1 - \frac{1}{n^3} \right)}.
 $$
@@ -1162,9 +1181,11 @@ $$
 $$
 
 **Final Answer:**
+
 $$
 \lim_{n \to \infty} \frac{(2n+3)^3}{n^3-1} = 8.
 $$
+
 ---
 
 ## 2 . Proof Using the Squeeze Theorem
@@ -1181,15 +1202,15 @@ $$
 \text {Analyze the bounds of} \ \sin(n) \
 $$
 
-The sine function is bounded for all real numbers $ n $, so:
+The sine function is bounded for all real numbers $n$, so:
 
 $$
 -1 \leq \sin(n) \leq 1
 $$
 
-### Step 2: Divide the inequality by $ n $ (for $ n > 0 $)
+### Step 2: Divide the inequality by $n$ (for $n > 0$)
 
-Since $ n $ is positive as $ n \to \infty $, we can divide the inequality by $ n $:
+Since $ n $ is positive as $n \to \infty$, we can divide the inequality by $n$:
 
 $$
 \frac{-1}{n} \leq \frac{\sin(n)}{n} \leq \frac{1}{n}
@@ -1203,13 +1224,13 @@ $$
 
 Now, we compute the limits of the bounds:
 
-- The limit of $ \frac{-1}{n} $ as $ n \to \infty $ is $ 0 $:
+- The limit of $\frac{-1}{n}$ as $n \to \infty$ is $0$:
 
 $$
 \lim_{n \to \infty} \frac{-1}{n} = 0
 $$
 
-- The limit of $ \frac{1}{n} $ as $ n \to \infty $ is also $ 0 $:
+- The limit of $\frac{1}{n}$ as $n \to \infty$ is also $0$:
 
 $$
 \lim_{n \to \infty} \frac{1}{n} = 0
@@ -1223,7 +1244,7 @@ $$
 \frac{-1}{n} \leq \frac{\sin(n)}{n} \leq \frac{1}{n}
 $$
 
-and both the lower and upper bounds approach 0 as $ n \to \infty $, by the **Squeeze Theorem**, we conclude that:
+and both the lower and upper bounds approach 0 as $n \to \infty$, by the **Squeeze Theorem**, we conclude that:
 
 $$
 \lim_{n \to \infty} \frac{\sin(n)}{n} = 0
@@ -1234,6 +1255,7 @@ $$
 $$
 \lim_{n \to \infty} \frac{\sin(n)}{n} = 0
 $$
+
 ---
 
 # 3. Limit of the Sequence
@@ -1249,7 +1271,7 @@ $$
 
 ### Step 2: Recognize the Limit
 
-This is a standard limit that is used to define the number $ e $ (Euler's number). The limit is known to be:
+This is a standard limit that is used to define the number $e$ (Euler's number). The limit is known to be:
 
 $$
 \lim_{n \to \infty} \left( 1 + \frac{1}{n} \right)^n = e
@@ -1260,9 +1282,11 @@ $$
 $$
 \text {Therefore, the limit of the sequence} \ a_n \ as \ n \to \infty \ is:
 $$ 
+
 $$
 \lim_{n \to \infty} \left( 1 + \frac{1}{n} \right)^n = e
 $$
+
 ---
 
 ## 20 . Limit of the Real Function
@@ -1277,12 +1301,12 @@ $$
 
 ### Step 1: Analyze the Degrees of the Polynomial
 
-- The numerator is $ x^3 + 2x^2 $, and the highest power of $ x $ in the numerator is $ x^3 $.
-- The denominator is $ x^4 - 3x^3 $, and the highest power of $ x $ in the denominator is $ x^4 $.
+- The numerator is $x^3 + 2x^2$, and the highest power of $x$ in the numerator is $x^3$.
+- The denominator is $x^4 - 3x^3$, and the highest power of $x$ in the denominator is $x^4$.
 
-### Step 2: Simplify by Dividing by the Highest Power of $ x $
+### Step 2: Simplify by Dividing by the Highest Power of $x$
 
-Since the highest degree in the denominator is $ x^4 $, we divide both the numerator and denominator by $ x^4 $ to simplify:
+Since the highest degree in the denominator is $x^4$, we divide both the numerator and denominator by $x^4$ to simplify:
 
 $$
 \frac{x^3 + 2x^2}{x^4 - 3x^3} = \frac{\frac{x^3}{x^4} + \frac{2x^2}{x^4}}{\frac{x^4}{x^4} - \frac{3x^3}{x^4}} = \frac{\frac{1}{x} + \frac{2}{x^2}}{1 - \frac{3}{x}}
@@ -1293,11 +1317,13 @@ $$
 $$
 \text {As} \ x \to \infty \:
 $$
+
 $$
 \ \frac{1}{x} \to 0 \
 \ \frac{2}{x^2} \to 0 \
 \ \frac{3}{x} \to 0 \
 $$
+
 Thus, the expression simplifies to:
 
 $$
@@ -1318,11 +1344,12 @@ $$
 \lim_{x \to 0} \frac{\sin(3x)}{2x+1}.
 $$
 
-### Step 1: Evaluate the limit of the numerator as $ x \to 0 $
+### Step 1: Evaluate the limit of the numerator as $x \to 0$
 
 $$
 \text {The numerator is} \ \sin(3x) \ . \text{We know that}:
 $$
+
 $$
 \lim_{x \to 0} \sin(3x) = \sin(0) = 0.
 $$
@@ -1361,19 +1388,20 @@ $$
 $$
 \text{As} \ x \to \infty \ 
 $$
+
 $$
 \lim_{x \to \infty} f(x) = \lim_{x \to \infty} \frac{x^2 - 1}{x^2 + 1} = \frac{1}{1} = 1.
 $$
 
-Thus, there is a horizontal asymptote at $ y = 1 $.
+Thus, there is a horizontal asymptote at y = 1 .
 
 #### Step 2: Vertical Asymptotes
 
-Vertical asymptotes occur when the denominator equals zero and the numerator is non-zero at that point. The denominator is $ x^2 + 1 $, which is never zero for any real value of $ x $ (since $ x^2 + 1 > 0 $ for all $ x $). Therefore, there are no vertical asymptotes.
+Vertical asymptotes occur when the denominator equals zero and the numerator is non-zero at that point. The denominator is $x^2 + 1$, which is never zero for any real value of $x$ (since $x^2 + 1 > 0$ for all $x$). Therefore, there are no vertical asymptotes.
 
-### Asymptotes for $ f(x) $:
+### Asymptotes for $f(x)$:
 
-- Horizontal asymptote at $ y = 1 $.
+- Horizontal asymptote at $y = 1$.
 - No vertical asymptotes.
 
 ### 2. 
@@ -1410,15 +1438,15 @@ $$
 \lim_{x \to \infty} g(x) = \lim_{x \to \infty} \frac{\sin(x)}{x^2 + 1} = 0.
 $$
 
-Thus, there is a horizontal asymptote at $ y = 0 $.
+Thus, there is a horizontal asymptote at $y = 0$.
 
 #### Step 2: Vertical Asymptotes
 
-Vertical asymptotes occur when the denominator equals zero and the numerator is non-zero at that point. The denominator is $ x^2 + 1 $, which is never zero for any real value of $ x $. Therefore, there are no vertical asymptotes.
+Vertical asymptotes occur when the denominator equals zero and the numerator is non-zero at that point. The denominator is $x^2 + 1$, which is never zero for any real value of $x$. Therefore, there are no vertical asymptotes.
 
-### Asymptotes for $ g(x) $:
+### Asymptotes for $g(x)$:
 
-- Horizontal asymptote at $ y = 0 $.
+- Horizontal asymptote at $y = 0$.
 - No vertical asymptotes.
 
  
