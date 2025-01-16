@@ -1783,3 +1783,65 @@ $$
 ![alt text](image-6.png)
 
 ---
+
+
+## 2.Find the tangent line $y = f'(x_0) (x-x_0) + f(x_0)$ to the function $f(x) = e^{\sin(x)}$ at $x_0 = \pi$. 
+
+### Step 1: Define $f(x)$
+The given function is:
+
+$$
+f(x) = e^{\sin(x)}
+$$
+
+### Step 2: Compute $f'(x)$
+The derivative of $f(x)$ is:
+
+$$
+f'(x) = \frac{d}{dx}\left(e^{\sin(x)}\right) = e^{\sin(x)} \cdot \cos(x)
+$$
+
+### Step 3: Evaluate $f(\pi)$ and $f'(\pi)$
+- At $x_0 = \pi$:
+
+  $$
+  f(\pi) = e^{\sin(\pi)} = e^0 = 1
+  $$
+
+- The derivative at $x_0 = \pi$ is:
+
+  $$
+  f'(\pi) = e^{\sin(\pi)} \cdot \cos(\pi) = 1 \cdot (-1) = -1
+  $$
+
+### Step 4: Write the tangent line equation
+Using the point-slope formula:
+
+$$
+y = f'(\pi) (x - \pi) + f(\pi)
+$$
+
+Substitute the values:
+
+$$
+y = -1 \cdot (x - \pi) + 1
+$$
+
+Simplify:
+
+$$
+y = -x + \pi + 1
+$$
+
+---
+
+## Final Answer:
+The tangent line at $x_0 = \pi$ is:
+
+$$
+y = -x + \pi + 1
+$$
+
+![alt text](image-7.png)
+
+---
