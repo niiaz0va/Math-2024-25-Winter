@@ -417,8 +417,9 @@ $$
 
 ### **Finally**
 
-- **Intersection Point**: $ (1, 5) $
+- **Intersection Point**:  (1, 5) 
 - **Angle Between the Lines**:
+
 $$
 \theta = \arctan\left( \frac{1}{7} \right) \approx 8.13^\circ
 $$
