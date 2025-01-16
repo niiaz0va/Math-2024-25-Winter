@@ -301,15 +301,14 @@ $$
 ## 14. Equations of lines on a plane
 
 ### 3. The line passes through point 
- A(1, 2)  
-and is perpendicular to the line 
+ A(1, 2) and is perpendicular to the line 
  y = 2x + 3 .
 
 ---
 
 ### 1: Find the slope of the given line
 
-The slope of the line $ y = 2x + 3 $ is $ m_1 = 2 $.
+The slope of the line  y = 2x + 3  is $  m_1 = 2$ .
 
 ### 2: Determine the slope of the perpendicular line
 
@@ -355,7 +354,7 @@ $$
 
 ---
 
-### 4. To find the intersection point and the angle between the lines $ y = 2x + 3 $ and $ y = 3x + 2 $.
+### 4. To find the intersection point and the angle between the lines  y = 2x + 3  and  y = 3x + 2 .
 
 ### 1: Find the intersection point
 
@@ -373,7 +372,7 @@ $$
 x = 1
 $$
 
-Substitute $ x = 1 $ into either equation to find $ y $:
+Substitute  x = 1  into either equation to find y:
 
 $$
 y = 2(1) + 3 = 5
@@ -401,7 +400,8 @@ $$
 \tan\theta = \left| \frac{m_2 - m_1}{1 + m_1 m_2} \right|
 $$
 
-Substitute $ m_1 = 2 $ and $ m_2 = 3 $:
+Substitute 
+$ m_1 = 2 $ and $ m_2 = 3 $:
 
 $$
 \tan\theta = \left| \frac{3 - 2}{1 + (2)(3)} \right| = \left| \frac{1}{7} \right|
