@@ -301,9 +301,9 @@ $$
 ## 14. Equations of lines on a plane
 
 ### 3. The line passes through point 
-$ A(1, 2) $ 
+ A(1, 2)  
 and is perpendicular to the line 
-$ y = 2x + 3 $.
+ y = 2x + 3 .
 
 ---
 
