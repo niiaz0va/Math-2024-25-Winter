@@ -1452,7 +1452,7 @@ Vertical asymptotes occur when the denominator equals zero and the numerator is 
 
 # 22. Extremum  
 
-## 6 . The profit function is given as $P(u) = -2u^2 + 50u - 300$, where $u$ is the number of units sold. Find the number of units $u$ that maximize profit.
+## 1 . The profit function is given as $P(u) = -2u^2 + 50u - 300$, where $u$ is the number of units sold. Find the number of units $u$ that maximize profit.
 
 ### Step 1: Identify the general form of a quadratic equation
 The profit function $P(u) = -2u^2 + 50u - 300$ is a quadratic equation of the form:
@@ -1492,98 +1492,7 @@ $$
 u = 12.5
 $$
 
-## 7.Find the extremum of $f(x) = \frac{x^2 + 2x + 1}{x - 1}$.
-
-### Step 1: Simplify the function
-The numerator can be factored as:
-
-$$
-x^2 + 2x + 1 = (x + 1)^2
-$$
-Thus:
-$$
-f(x) = \frac{(x + 1)^2}{x - 1}
-$$
-
----
-
-### Step 2: Find the derivative $f'(x)$
-Use the quotient rule:
-
-The function is given as:
-
-$f(x) = \frac{(x + 1)^2}{x - 1}$.
-
-We need to find the derivative $f'(x)$ using the **quotient rule**:
-
-$\frac{d}{dx}\left(\frac{u}{v}\right) = \frac{v \cdot u' - u \cdot v'}{v^2},$
-
-where:
-- $u = (x + 1)^2$ (the numerator),
-- $v = x - 1$ (the denominator).
-
-The numerator is:
-
-$u = (x + 1)^2$.
-
-To differentiate $u$, apply the **power rule**:
-
-$u' = 2(x + 1)$.
-
-The denominator is:
-
-$v = x - 1$.
-
-The derivative of $v$ is:
-
-$v' = 1$.
-
-$$
-f'(x) = \frac{(x - 1) \cdot 2(x + 1) - (x + 1)^2 \cdot 1}{(x - 1)^2}
-$$
-
-Simplify the numerator:
-
-$$
-f'(x) = \frac{2(x + 1)(x - 1) - (x + 1)^2}{(x - 1)^2}
-$$
-
-Factor out $(x + 1)$:
-
-$$
-f'(x) = \frac{(x + 1)\left[2(x - 1) - (x + 1)\right]}{(x - 1)^2}
-$$
-Simplify further:
-$$
-f'(x) = \frac{(x + 1)\left[2x - 2 - x - 1\right]}{(x - 1)^2} = \frac{(x + 1)(x - 3)}{(x - 1)^2}
-$$
-
----
-
-### Step 3: Solve $f'(x) = 0$
-Set the numerator equal to zero:
-
-$$
-(x + 1)(x - 3) = 0
-$$
-This gives:
-$$
-x = -1 \, \text{or} \, x = 3
-$$
-
----
-
-### Step 4: Determine the nature of the extremum
-To determine whether these points are maxima, minima, or neither, analyze the sign of $f'(x)$ around $x = -1$ and $x = 3$ using a sign chart.
-
-## Final Answer:
-- $x = -1$: Behavior must be checked for the function, as this point may not be valid depending on the domain.
-- $x = 3$: This may represent an extremum.
-
-
----
-
-## 8. Find the extremum of $f(x) = x^2 + 3x - 5$.
+## 3. Find the extremum of $f(x) = x^2 + 3x - 5$.
 
 ## Solution:
 
@@ -1640,12 +1549,7 @@ $$
 
 This is a **minimum** since $a > 0$.
 
-![alt text](image-8.png)
-
-## 9.Find the extremum of $f(x) = \frac{x^2 + 2x + 1}{x - 1}$.
-
-
-## Solution:
+## 4.Find the extremum of $f(x) = \frac{x^2 + 2x + 1}{x - 1}$.
 
 ### Step 1: Simplify the function
 The numerator can be factored as:
@@ -1664,6 +1568,34 @@ $$
 
 ### Step 2: Find the derivative $f'(x)$
 Use the quotient rule:
+
+The function is given as:
+
+$f(x) = \frac{(x + 1)^2}{x - 1}$.
+
+We need to find the derivative $f'(x)$ using the **quotient rule**:
+
+$\frac{d}{dx}\left(\frac{u}{v}\right) = \frac{v \cdot u' - u \cdot v'}{v^2},$
+
+where:
+- $u = (x + 1)^2$ (the numerator),
+- $v = x - 1$ (the denominator).
+
+The numerator is:
+
+$u = (x + 1)^2$.
+
+To differentiate $u$, apply the **power rule**:
+
+$u' = 2(x + 1)$.
+
+The denominator is:
+
+$v = x - 1$.
+
+The derivative of $v$ is:
+
+$v' = 1$.
 
 $$
 f'(x) = \frac{(x - 1) \cdot 2(x + 1) - (x + 1)^2 \cdot 1}{(x - 1)^2}
@@ -1705,13 +1637,14 @@ $$
 ---
 
 ### Step 4: Determine the nature of the extremum
-To determine whether these points are maxima, minima, or neither, analyze the sign of $f'(x)$ around $x = -1$ and $x = 3$ using a sign chart.
-
----
+To determine whether these points are maxima, minima, or neither, analyze the sign of $f'(x)$ around $x = -1$ and $x = 3$ using a sign chart
 
 ## Final Answer:
 - $x = -1$: Behavior must be checked for the function, as this point may not be valid depending on the domain.
 - $x = 3$: This may represent an extremum.
+
+![alt text](image-8.png)
+---
 
 ## 23.Taylor Series
 ### Find the Taylor series for the following functions and visualize the obtained functions in Geogebra:
