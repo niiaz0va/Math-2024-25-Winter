@@ -1580,7 +1580,6 @@ To determine whether these points are maxima, minima, or neither, analyze the si
 - $x = -1$: Behavior must be checked for the function, as this point may not be valid depending on the domain.
 - $x = 3$: This may represent an extremum.
 
-Further analysis is required to determine the exact nature of the extrema.
 
 ---
 
@@ -1640,6 +1639,8 @@ x = -\frac{3}{2}, \, f(x) = -\frac{29}{4}.
 $$
 
 This is a **minimum** since $a > 0$.
+
+![alt text](image-8.png)
 
 ## 9.Find the extremum of $f(x) = \frac{x^2 + 2x + 1}{x - 1}$.
 
@@ -1711,8 +1712,6 @@ To determine whether these points are maxima, minima, or neither, analyze the si
 ## Final Answer:
 - $x = -1$: Behavior must be checked for the function, as this point may not be valid depending on the domain.
 - $x = 3$: This may represent an extremum.
-
-Further analysis is required to determine the exact nature of the extrema.
 
 ## 23.Taylor Series
 ### Find the Taylor series for the following functions and visualize the obtained functions in Geogebra:
