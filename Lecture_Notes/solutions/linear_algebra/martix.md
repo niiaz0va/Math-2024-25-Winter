@@ -1519,6 +1519,34 @@ $$
 ### Step 2: Find the derivative $f'(x)$
 Use the quotient rule:
 
+The function is given as:
+
+$f(x) = \frac{(x + 1)^2}{x - 1}$.
+
+We need to find the derivative $f'(x)$ using the **quotient rule**:
+
+$\frac{d}{dx}\left(\frac{u}{v}\right) = \frac{v \cdot u' - u \cdot v'}{v^2},$
+
+where:
+- $u = (x + 1)^2$ (the numerator),
+- $v = x - 1$ (the denominator).
+
+The numerator is:
+
+$u = (x + 1)^2$.
+
+To differentiate $u$, apply the **power rule**:
+
+$u' = 2(x + 1)$.
+
+The denominator is:
+
+$v = x - 1$.
+
+The derivative of $v$ is:
+
+$v' = 1$.
+
 $$
 f'(x) = \frac{(x - 1) \cdot 2(x + 1) - (x + 1)^2 \cdot 1}{(x - 1)^2}
 $$
