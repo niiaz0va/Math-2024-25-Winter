@@ -1456,9 +1456,11 @@ Vertical asymptotes occur when the denominator equals zero and the numerator is 
 
 ### Step 1: Identify the general form of a quadratic equation
 The profit function $P(u) = -2u^2 + 50u - 300$ is a quadratic equation of the form:
+
 $$
 P(u) = ax^2 + bx + c
 $$
+
 Here:
 - $a = -2$
 - $b = 50$
