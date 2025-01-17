@@ -1492,17 +1492,6 @@ $$
 u = 12.5
 $$
 
-If you require the result in whole numbers (depending on the problem's context), the maximum could occur at either $u = 12$ or $u = 13$. You can test both values in the profit function to determine which gives the higher profit.
-
----
-
-## Final Answer:
-The number of units that maximize profit is:
-
-$$
-u = 12.5
-$$
-
 ## 7.Find the extremum of $f(x) = \frac{x^2 + 2x + 1}{x - 1}$.
 
 ### Step 1: Simplify the function
